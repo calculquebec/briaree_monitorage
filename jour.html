@@ -1,0 +1,18 @@
+<HTML>
+<TITLE>Calcul Québec: Usage par jour</TITLE>
+<BODY>
+Remplissez le formulaire pour voir les tâches qui satisfont vos critères
+<FORM METHOD="post" ACTION="/cgi-bin/job_statistics.pl">
+Date pour laquelle vous voulez des informations; laissez vide pour choisir hier (JJ/MM/YYYY): 
+<INPUT TYPE="text" NAME="date"><br>
+Heures: <SELECT name="heure">
+       <OPTION SELECTED>Toutes 
+       <OPTION>Avant midi 
+       <OPTION>Après midi
+       </SELECT>
+<br>
+Usager (laissez vide pour avoir tous les usagers): <INPUT TYPE="text" NAME="usager"><br>
+<INPUT TYPE="submit">
+</FORM>
+</BODY>
+<HTML>
